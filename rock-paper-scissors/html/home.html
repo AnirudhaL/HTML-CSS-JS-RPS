@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RPS</title>
+    <link rel="stylesheet" href="../css/the_css.css">
+    <link href='https://fonts.googleapis.com/css?family=Archivo Black' rel='stylesheet'>
+</head>
+
+<body>
+    <nav>
+        <div id="the-nav">THE ROCK THE PAPER THE SCISSOR</div>
+    </nav>
+    <div id="player">
+        <div id='player-2'>
+            <input type="text" placeholder="Your name" id="user-name">
+            <button type="submit" id="submit-bt" onclick='namesub()'>👍</button>
+            <p>Use space-bar to reset the RPS</p>
+        </div>
+    </div>
+    </div>
+    <div id="img-div">
+        <img src="../SVG/rock.svg" alt="rock" id="rock" onClick='rock(), rand(), thescore()'>
+        <img src="../SVG/paper.svg" alt="paper" id="paper" onClick='paper(), rand(), thescore()'>
+        <img src="../SVG/scissor.svg" alt="scissor" id="scissor" onClick='scissor(), rand(), thescore()'>
+    </div>
+    <div id="the-name">Anirudha Lakshman - </div>
+    <div id='under'>
+        <div id="underline"></div>
+    </div>
+
+    <div id="reset">
+        <button onclick='thereset()'>Reset</button>
+        <button onclick='therestart()'>Restart</button>
+    </div>
+
+    <!-- <footer></footer> -->
+
+</body>
+
+<script src='../js/Jscript.js'></script>
+
+</html>

@@ -1,0 +1,121 @@
+body {
+    font-family: "Archivo Black";
+    margin: 0;
+    background-color: rgb(197, 121, 90);
+    min-height: 100%;
+}
+
+#player {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10;
+    text-align: center;
+}
+
+#player-2 {
+    position: absolute;
+    top: 340px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+#user-name {
+    background: none;
+    border: 0;
+    border-bottom: 2px solid beige;
+    height: 50px;
+    width: 400px;
+    font-size: x-large;
+    font-weight: 800;
+    color: white;
+}
+
+#submit-bt {
+    width: 60px;
+    height: 50px;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(105, 66, 66);
+    justify-content: center;
+}
+
+#the-nav {
+    display: block;
+    position: absolute;
+    justify-self: center;
+    top: 45px;
+    font-size: 40px;
+}
+
+#img-div {
+    display: flex;
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+}
+
+img {
+    margin: 10px 40px 0 40px;
+    width: 200px;
+}
+
+#the-name {
+    display: flex;
+    margin-top: 450px;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#under {
+    display: flex;
+    justify-content: center;
+}
+
+#underline {
+    display: flex;
+    width: 450px;
+    border-top: 2px solid blanchedalmond;
+}
+
+#reset {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    margin: 5px;
+    color: white;
+    background-color: rgb(105, 66, 66);
+}
+
+button:focus,
+#user-name:focus {
+    outline: none;
+}
+
+button:active,
+#submit-bt:active {
+    width: 90px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(105, 66, 66);
+    bottom: 0;
+}
